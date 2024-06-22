@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Backup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Column.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Database.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Exception.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Savepoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Statement.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\github\MySQLiteCpp\src\Transaction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\SQLiteCpp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Assertion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Backup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Column.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Database.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Exception.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Savepoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Statement.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\Transaction.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\VariadicBind.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\include\SQLiteCpp\ExecuteMany.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\github\MySQLiteCpp\cmake\SQLiteCppConfig.cmake.in">
+      <Filter>scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Code\github\MySQLiteCpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Code\github\MySQLiteCpp\README.md">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\LICENSE.txt">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\CHANGELOG.md">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\TODO.txt">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.editorconfig">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.gitbugtraq">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.github\workflows\cmake.yml">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.github\workflows\cmake_subdir_example.yml">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.github\workflows\meson.yml">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.gitignore">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.gitmodules">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\.travis.yml">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\appveyor.yml">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\build.bat">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\build.sh">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\cpplint.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\Doxyfile">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="F:\Code\github\MySQLiteCpp\cmake\FindSQLite3.cmake">
+      <Filter>scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="doc">
+      <UniqueIdentifier>{529F6D37-10F4-3F0A-A514-0E6989BA7FF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{634494B9-4100-356B-B564-2B82F67D1D6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{E1545EDB-51D0-3B01-95D0-761E697BDF9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{AAA05CE8-3839-3FD5-B06F-064F89974495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

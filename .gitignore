@@ -8,12 +8,12 @@ build
 .vs/
 .vscode/
 .vsconfig
-*.sln
+# *.sln 解决方案
 *.ncb
 *.suo
 *.user
 *sdf
-*.vc*
+# *.vc*
 *~
 doc
 core
@@ -24,7 +24,7 @@ core
 CMakeSettings.json
 CMakeCache.txt
 CMakeFiles
-*.dir
+*.dir 子目录
 Testing
 Win32
 
