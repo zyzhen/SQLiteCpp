@@ -213,6 +213,7 @@ public:
     {
     }
 
+    void setKey(const std::string& dbkey);
     #ifdef SQLITECPP_HAVE_STD_FILESYSTEM
 
     /**

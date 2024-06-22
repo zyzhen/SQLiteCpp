@@ -15,7 +15,8 @@
 #include <SQLiteCpp/Exception.h>
 #include <SQLiteCpp/Statement.h>
 
-#include <sqlite3.h>
+//#include <sqlite3.h>
+#include "sqlite3secure/src/sqlite3secure.h"
 #include <fstream>
 #include <string.h>
 
@@ -77,6 +78,13 @@ Database::Database(const char* apFilename,
     {
         setBusyTimeout(aBusyTimeoutMs);
     }
+}
+
+void Database::setKey(const std::string& dbkey)
+{
+    wxsqlite3_config(getHandle(), "default:cipher", CODEC_TYPE_AES128);
+
+    sqlite3_key(getHandle(), dbkey.data(), dbkey.size());
 }
 
 // Deleter functor to use with smart pointers to close the SQLite database connection in an RAII fashion.
